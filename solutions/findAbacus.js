@@ -17,6 +17,7 @@ function findAbacus(array) {
             return i;
         }
     }
+    return null;
 }
 
 module.exports = findAbacus;

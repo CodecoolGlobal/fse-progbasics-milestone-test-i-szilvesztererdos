@@ -19,7 +19,7 @@ function averageAgeOfAdults(users) {
   let sum = 0;
   let count = 0;
   users.forEach(user => {
-    if (user.age > 18) {
+    if (user.age >= 18) {
       sum += user.age;
       count++;
     }
